@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    max-width: 100%;
+    max-height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(82, 78, 78);
+    border-radius: 10px;
+}
+
+.logocontainer {
+    padding: 5px;
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+.barradepesquisa {
+    display: flex;
+    border: 1px solid gray;
+    padding: 5px;
+    padding-left: 50%;
+    border-radius: 10px;
+    background-color: rgb(82, 78, 78);
+}
+
+.menu2 {
+    display: flex;
+}
+
+.perfil {
+    width: 20%;
+    height: 100%;
+    background-color: tomato;
+    border: solid tomato;
+    border-radius: 50%;
+}
+
+
