@@ -28,7 +28,7 @@ body {
 }
 
 .logocontainer {
-    padding: 5px;
+    padding: 10px;
     background-color: tomato;
     border-radius: 10px;
 }
@@ -36,7 +36,8 @@ body {
 .barradepesquisa {
     width: 50%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
     border: 1px solid rgb(82, 78, 78);
     padding: 5px;
     border-radius: 10px;
@@ -44,6 +45,7 @@ body {
 }
 
 .pesquisar {
+    width: 100%;
     background-color: rgba(0, 0, 0, 0);
     border: none;
     color: white;
@@ -73,13 +75,14 @@ body {
     max-width: 100%;
     max-height: 70%;
     display: flex;
+    flex-wrap: wrap;
 }
 
-.video {
+.content {
+    width: 100%;
     margin: 3%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 .video h1{
@@ -94,37 +97,96 @@ body {
 }
 
 .infos {
+    width: 100%;
     display: flex;
     gap: 5px;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .pfp {
-    width: 6%;
+    width: 4%;
     height: auto;
     border-radius: 50%;
     cursor: pointer;
 }
 
 .canalinfos {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    width: 15%;
     justify-content: space-around;
     cursor: pointer;
 }
 
 .botoes {
-    width: 38%;
+    width: 85%;
     gap: 20px;
     display: flex;
     justify-content: flex-end;
 }
 
 .btn {
-    border-radius: 10px;
-    padding: 5px;
+    border-radius: 20px;
+    padding: 15px;
     background-color: rgb(82, 78, 78);
     cursor: pointer;
 }
 
+.recomendações {
+    display: flex;
+    width: 40%;
+    height: auto;
+}
+
+.validation img{
+    width: 50%;
+}
+
+.comentarios {
+    width: 100%;
+    display: flex;
+    margin: 3%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comentarios img {
+    width: 4%;
+    height: auto;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.barradecomentar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.comentar {
+    width: 56%;
+    background-color: rgb(27, 26, 26);
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.botoescomentarios {
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.btncancel {
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(82, 78, 78);
+    cursor: pointer;
+}
+
+.btncomentar {
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(82, 78, 78);
+    cursor: pointer;
+}
