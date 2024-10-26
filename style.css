@@ -21,7 +21,7 @@ body {
 }
 
 .menu {
-    margin: 5px;
+    margin: 20px;
     padding: 5px;
     background-color: rgb(82, 78, 78);
     border-radius: 10px;
@@ -73,16 +73,19 @@ body {
 
 .main {
     max-width: 100%;
-    max-height: 70%;
+    max-height: 100%;
     display: flex;
-    flex-wrap: wrap;
+}
+
+.principal {
+    display: flex;
 }
 
 .content {
-    width: 100%;
-    margin: 3%;
+    width: 60%;
     display: flex;
     flex-direction: column;
+    margin: 3%;
 }
 
 .video h1{
@@ -91,37 +94,46 @@ body {
 }
 
 .thumb {
-    width: 60%;
+    width: 100%;
     height: auto;
     border-radius: 20px;
 }
 
 .infos {
     width: 100%;
+    height: auto;
     display: flex;
+    flex-direction: column;
     gap: 5px;
-    align-items: center;
-    margin-bottom: 20px;
 }
 
 .pfp {
-    width: 4%;
+    width: 35%;
     height: auto;
     border-radius: 50%;
     cursor: pointer;
 }
 
+.descricao {
+    display: flex;
+    align-items: center;
+}
+
 .canalinfos {
-    width: 15%;
-    justify-content: space-around;
+    display: flex;
+    width: 20%;
     cursor: pointer;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .botoes {
-    width: 85%;
-    gap: 20px;
     display: flex;
+    width: 80%;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .btn {
@@ -131,20 +143,9 @@ body {
     cursor: pointer;
 }
 
-.recomendações {
-    display: flex;
-    width: 40%;
-    height: auto;
-}
-
-.validation img{
-    width: 50%;
-}
-
 .comentarios {
     width: 100%;
     display: flex;
-    margin: 3%;
     flex-direction: column;
     gap: 10px;
 }
@@ -163,7 +164,7 @@ body {
 }
 
 .comentar {
-    width: 56%;
+    width: 96%;
     background-color: rgb(27, 26, 26);
     padding: 20px;
     border-radius: 10px;
@@ -171,7 +172,7 @@ body {
 }
 
 .botoescomentarios {
-    width: 60%;
+    width: 100%;
     display: flex;
     gap: 10px;
     justify-content: flex-end;
@@ -189,4 +190,46 @@ body {
     padding: 15px;
     background-color: rgb(82, 78, 78);
     cursor: pointer;
+}
+
+.recomendações {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 3%;
+    gap: 20px;
+}
+
+.validationcontainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.imgvalidation {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.titulovalidation {
+    font-size: 130%;
+}
+
+.bonstemposcontainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.imgbonstempos {
+    width: 40%;
+    border-radius: 10px;
+}
+
+.titulobonstempos {
+    font-size: 130%;
 }
